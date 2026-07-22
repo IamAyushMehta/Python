@@ -1,7 +1,8 @@
 n = int(input("enter number : "))
 
-i = 2
-for i in n-1:
+for i in range(2, n):
     if n % i == 0:
-        print("not prime")
-    
+        print("not a prime")
+        break
+else:
+    print("prime")
