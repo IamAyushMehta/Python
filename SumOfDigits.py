@@ -1,5 +1,6 @@
 n = int(input("enter n : "))
 sum = 0
+
 while n > 0:
     rem = n % 10
     sum += rem
