@@ -6,4 +6,4 @@ while i <= n:
     fact *= i
     i += 1
 
-print(fact) 
+print(f"factorial of {n} :", fact)
