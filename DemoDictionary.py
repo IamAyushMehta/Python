@@ -1,9 +1,9 @@
-dict = {
-    "name": input("enter string : "),
-}
+s = input("enter string : ")
 
-count = 0
-for i in dict["name"]:
-    count += 1
+for i in s:
+    count = 0
+    for j in s:
+        if i == j:
+            count += 1
 
-print("no of character : ", count)
+    print(f"'{i}' : {count}")
