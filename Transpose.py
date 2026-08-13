@@ -1,18 +1,25 @@
-lst = [
-    [1,2,3],
-    [4,5,6],
-    [7,8,9]
-]
+rows = int(input("enter rows : "))
+cols = int(input("enter cols : "))
 
-result = [
-    [0, 0, 0],
-    [0, 0, 0],
-    [0, 0, 0]
-]
+matrix = []
 
-for i in range(len(lst)):
-    for j in range(len(lst[0])):
-        result [i][j] = lst[j][i]
-    
-for i in result:
+for i in range(rows):
+    row = []
+    for j in range(cols):
+        row.append(int(input("enter row : ")))
+    print()
+    matrix.append(row)
+
+col = len(matrix[0])
+row = len(matrix)
+
+
+transpose = []
+for i in range(col):
+    new_row = []
+    for j in range(row):
+        new_row.append(matrix[j][i])
+    transpose.append(new_row)
+
+for i in transpose:
     print(i)
