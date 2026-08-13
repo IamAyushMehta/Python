@@ -5,10 +5,8 @@ def search(tp, n):
             return
     print("not found")
     
-n = int(input("enter number to search : "))
 tp = (1,2,3,4,5,6)
 
-
-
+n = int(input("enter number to search : "))
 
 search(tp, n)
