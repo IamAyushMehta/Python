@@ -1,0 +1,2 @@
+emp = set()
+print(emp)  

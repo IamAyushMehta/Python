@@ -1,11 +1,6 @@
-#min max find
-tp = (100,6,12,-1,754,9)
-min = tp[0]
-max = tp[0]
-for i in range(len(tp)):
-    if min > tp[i]:
-        min = tp[i]
-    if max < tp[i]:
-        max = tp[i]
-print(min)
-print(max)
+import numpy as np
+import pandas as pd
+
+print("NumPy version:", np.__version__)
+print(
+    "Pandas version:", pd.__version__)
