@@ -1,23 +1,5 @@
-# lst = [1,2,3,4,5]
+lst1 = [2,4,6,8,10]
+lst2 = [1,2,3,4
+        ,5,6,7,8,9,10]
 
-
-# def printLst(lst):
-#     print(len(lst))
-#     for i in lst:
-#         print(i, end=" ")
-
-# printLst(lst)
-
-# def fact(n):
-#     if n == 0:
-#         return 1
-#     return n * fact(n-1)
-
-# print(fact(50))
-
-def currencyConverter(n):
-    inr = n * 95.77
-    print(inr)
-
-
-currencyConverter(100)
+print(lst2)
