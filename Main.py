@@ -1,4 +1,3 @@
-lst = [[1, 2, 3], [4, 5, 5]]
+import Module
 
-for i in range(len(lst)):
-    print(lst[i])
+print(Module.fibonacci(8))
