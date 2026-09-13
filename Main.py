@@ -1,3 +1,5 @@
-import Module
+import modules
 
-print(Module.fibonacci(8))
+# print(modules.fibonacci(8))
+print(modules.square(10))
+print(modules.cube(10))

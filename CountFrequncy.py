@@ -1,10 +1,26 @@
-lst = [1,5,2,4,3,7,8,9,1,2,5]
-
+lst = [1, 1, 1, 2]
 freq = []
-for i in range(len(lst)): 
+for i in lst:
     count = 0
-    for j in range(len(lst)):
-        if lst[i] == lst[j] and lst[i] not in freq:
+    for j in lst:
+        if i == j:
             count += 1
-    freq.append(lst[i])
-    print(lst[i], " = ", count)
+    freq.append(f"{i} : {count}")
+
+print(sorted(lst))
+freq = sorted(set(freq))
+for i in freq:
+    print(i)
+
+
+def freqCount(lst, tar):
+    count = 0
+    for i in lst:
+        if tar == i:
+            count += 1
+    return f"{tar} : {count}"
+
+
+lst1 = set(lst)
+for i in lst1:
+    print(freqCount(lst, i))
