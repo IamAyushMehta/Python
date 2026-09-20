@@ -1,5 +1,4 @@
-lst1 = [2,4,6,8,10]
-lst2 = [1,2,3,4
-        ,5,6,7,8,9,10]
-
-print(lst2)
+count = 0
+while True:
+    print(count)
+    count += 1

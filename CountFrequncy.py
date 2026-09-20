@@ -13,14 +13,14 @@ for i in freq:
     print(i)
 
 
-def freqCount(lst, tar):
-    count = 0
-    for i in lst:
-        if tar == i:
-            count += 1
-    return f"{tar} : {count}"
+# def freqCount(lst, tar):
+#     count = 0
+#     for i in lst:
+#         if tar == i:
+#             count += 1
+#     return f"{tar} : {count}"
 
 
-lst1 = set(lst)
-for i in lst1:
-    print(freqCount(lst, i))
+# lst1 = set(lst)
+# for i in lst1:
+#     print(freqCount(lst, i))
