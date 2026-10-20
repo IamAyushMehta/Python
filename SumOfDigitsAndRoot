@@ -1,0 +1,14 @@
+def digital_root(n):
+    while n >= 10:
+        temp = n
+        sum = 0
+        while temp > 0:
+            rem = temp % 10
+            sum += rem
+            temp //= 10
+        n = sum
+    return n
+
+
+res = digital_root(132189)
+print(res)
